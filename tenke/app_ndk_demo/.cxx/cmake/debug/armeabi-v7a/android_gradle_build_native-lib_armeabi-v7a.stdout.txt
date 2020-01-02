@@ -1,0 +1,1 @@
+ninja: Entering directory `D:\code\DeepLearning\StartBu\tenke\app_ndk_demo\.cxx\cmake\debug\armeabi-v7a'

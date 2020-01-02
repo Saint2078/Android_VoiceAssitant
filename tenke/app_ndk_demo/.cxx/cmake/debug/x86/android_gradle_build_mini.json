@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "C:\\Users\\SU2020\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\SU2020\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\build\\cmake\\android.toolchain.cmake",
+    "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\SU2020\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cmake\\debug\\x86\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\SU2020\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-x86": {
+      "artifactName": "native-lib",
+      "buildCommand": "C:\\Users\\SU2020\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cmake\\debug\\x86\" native-lib",
+      "abi": "x86",
+      "output": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\build\\intermediates\\cmake\\debug\\obj\\x86\\libnative-lib.so"
+    }
+  }
+}

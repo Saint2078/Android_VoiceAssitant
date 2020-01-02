@@ -1,0 +1,13 @@
+include ':app_tenke_demo', ':app',
+        ':lib_common',
+        ':module_voice_assitant',
+        ':lib_floatwindow',
+        ':demo_case',
+        ':module_tts',
+        ':module_call',
+        ':app_test'
+
+
+setBinding(new Binding([gradle:this]))
+evaluate(new File(settingsDir.parentFile,'tenke/flutter_app/.android/include_flutter.groovy'))
+include ':flutter_app'

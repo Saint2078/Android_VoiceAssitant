@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="gray_light">#C0C0C0</color>
+    <color name="lighter_gray">#D3D3D3</color>
+    <color name="black">#000000</color>
+    <color name="black_ee">#ee000000</color>
+    <color name="black_32">#323232</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_33">#33FFFFFF</color>
+    <color name="white_A2A2A2">#A2A2A2</color>
+    <color name="gray">#cccccc</color>
+    <color name="black_19">#19ffffff</color>
+    <color name="black_tab">#313030</color>
+    <color name="black_303030">#303030</color>
+    <color name="tab_right">#66000000</color>
+
+    <color name="grey_55">#D8484C57</color>
+    <color name="grey_363636">#363636</color>
+    <color name="background_alpha">#f5313030</color>
+    <color name="black_33">#333333</color>
+    <color name="black_1A">#1A1A1A</color>
+
+    <color name="gridBackColor">#ff2d2d2d</color>
+    <color name="light_gray">#AAAAAA</color>
+    <color name="middle_gray">#808080</color>
+    <color name="dark_gray">#555555</color>
+    <color name="black_21">#212121</color>
+    <color name="black_41">#414141</color>
+    <color name="black_9">#1e212b</color>
+    <color name="background_color">#1a1a1a</color>
+    <color name="background_gray">#efeff4</color>
+    <color name="transparent_black">#00000000</color>
+    <color name="yellow">#ffcc00</color>
+    <color name="orange">#ff6f45</color>
+    <color name="music_pink">#DF4F59</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#1BBFFF</color>
+    <color name="blue_2166a1">#2166a1</color>
+    <color name="blue_31c27c">#31c27c</color>
+    <color name="blue_shadow">#287590</color>
+
+    <color name="light_blue">#1497FC</color>
+    <color name="green">#4cd964</color>
+    <color name="dark_green">#008000</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_dd">#dd000000</color>
+    <color name="transparent_aa">#aa000000</color>
+    <color name="transparent_88">#88000000</color>
+    <color name="transparent_55">#55000000</color>
+    <color name="transparent_22">#22000000</color>
+    <color name="transparent_gray_77">#aa434343</color>
+    <color name="gray_464646">#464646</color>
+    <color name="gray_484848">#484848</color>
+    <color name="transparent_white_22">#22ffffff</color>
+    <color name="transparent_white_47">#47ffffff</color>
+    <color name="transparent_white_55">#55ffffff</color>
+    <color name="transparent_white_99">#99ffffff</color>
+    <color name="transparent_pink_start">#ccfd477a</color>
+    <color name="transparent_pink_end">#ccfe7247</color>
+
+    <color name="phone_bottom_bg">#dcdee0</color>
+    <color name="action_bar_bkg">@color/transparent_white_22</color>
+
+    <color name="mapBackground">#f9f5ed</color>
+    <color name="white_6">#E6E6E6</color>
+    <color name="wechat_expand_view_bg">#B3000000</color>
+    <color name="black_5A5A5A">#5A5A5A</color>
+    <color name="black_2C2F33">#2C2F33</color>
+    <color name="black_1C1C1C">#1C1C1C</color>
+    <color name="black_1D1D1D">#1D1D1D</color>
+    <color name="green_A0E759">#A0E759</color>
+    <color name="white_F2F2F2">#F2F2F2</color>
+
+    <color name="button_bg">#76292929</color>
+    <color name="status_bar_icon_bg">#292929</color>
+    <color name="nav_apps_line_color">#56ffffff</color>
+
+    <color name="voice_user_speak_text_color">#e7d852</color>
+</resources>

@@ -1,0 +1,3 @@
+D:/code/DeepLearning/StartBu/tenke/app_ndk_demo/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/native-lib.dir
+D:/code/DeepLearning/StartBu/tenke/app_ndk_demo/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/code/DeepLearning/StartBu/tenke/app_ndk_demo/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir

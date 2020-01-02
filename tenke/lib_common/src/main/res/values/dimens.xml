@@ -1,0 +1,10 @@
+<resources>
+
+    <dimen name="font_size_small">15sp</dimen>
+    <dimen name="font_size_normal">21sp</dimen>
+    <dimen name="font_size_title">22.5sp</dimen>
+    <dimen name="font_size_big">31sp</dimen>
+    <dimen name="font_size_huge">64sp</dimen>
+    <dimen name="cover_item_image_border_width">5dp</dimen>
+
+</resources>

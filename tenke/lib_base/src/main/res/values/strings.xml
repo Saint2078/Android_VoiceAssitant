@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">tenke test</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新...</string>
+    <string name="pull_to_refresh_release_label">释放更新...</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入...</string>
+    <string name="pull_to_refresh_tap_label">点击更新...</string>
+
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <string name="shared_from_phone">来自手机应用分享</string>
+    <string name="speed_unit">公里/小时</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="done">完成</string>
+
+    <string name="error_message_network">无法连接到服务器，请稍后重试!</string>
+    <string name="error_message_no_empty">%s不能为空。</string>
+    <string name="error_message_engine_number_less_7">发动机号不应少于7位。</string>
+    <string name="error_message_phone_number_11">手机号码只支持11位。</string>
+    <string name="error_message_engine_number_more_14">发动机号不应多于14位。</string>
+    <string name="error_message_playlist_existed">列表名称已经存在，请调整后重试。</string>
+    <string name="error_message_no_radio_favs">暂无收藏的电台频道。</string>
+    <string name="error_message_no_channel_nearby">附近没有已知电台频道。</string>
+
+    <string name="plus">+</string>
+    <string name="crashtoast">很抱歉，程序出现异常，收集数据中...</string>
+    <string name="settings_bluetooth_not_available">Bluetooth Not Available</string>
+
+
+
+    <string name="apps_netease_music">Netease Cloud Music</string>
+    <string name="apps_qq_music">QQ Music</string>
+    <string name="app_driving_record">Driving Record</string>
+    <string name="app_pandora">Pandora</string>
+    <string name="apps_cheyuebao_music">CYB Music</string>
+    <string name="apps_wechat">Wechat</string>
+    <string name="apps_spotify_music">Spotify</string>
+    <string name="setting_radio_ximalaya">喜马拉雅</string>
+    <string name="setting_parking_name">EZParking</string>
+    <string name="mycar_car_traffic_violation">Traffic Violation</string>
+
+    <string name="dashboard_home">Home</string>
+    <string name="dashboard_music">Music</string>
+    <string name="dashboard_radio">Radio</string>
+    <string name="dashboard_phone">Phone</string>
+    <string name="dashboard_nav">Navigation</string>
+    <string name="dashboard_apps">Apps</string>
+    <string name="dashboard_settings">Settings</string>
+
+</resources>

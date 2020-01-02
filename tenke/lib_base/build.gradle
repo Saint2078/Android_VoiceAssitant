@@ -1,0 +1,61 @@
+apply plugin: 'com.android.library'
+//apply plugin: 'com.jakewharton.hugo'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    //implementation "androidx.lifecycle:lifecycle-extensions:2.0.0"
+    api 'com.orhanobut:logger:2.2.0'
+    //api 'com.jakewharton.rxbinding3:rxbinding-material:3.0.0-alpha2'
+    //retrofit
+    api 'com.squareup.retrofit2:retrofit:2.5.0'
+    api 'com.squareup.retrofit2:converter-gson:2.5.0'
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
+    api 'com.squareup.retrofit2:converter-scalars:2.5.0'
+    //okhttp
+    api 'com.squareup.okhttp3:logging-interceptor:3.11.0'
+    //glide
+    api 'com.github.bumptech.glide:glide:4.10.0'
+    api 'com.github.bumptech.glide:okhttp3-integration:4.10.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
+
+    //gson
+    api 'com.google.code.gson:gson:2.8.5'
+    api 'com.google.guava:guava:26.0-android'
+    //Rxjava
+    api 'io.reactivex.rxjava2:rxjava:2.2.2'
+    api 'io.reactivex.rxjava2:rxandroid:2.1.0'
+
+    api 'androidx.recyclerview:recyclerview:1.0.0'
+    api 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    api 'org.apache.commons:commons-text:1.7'
+}

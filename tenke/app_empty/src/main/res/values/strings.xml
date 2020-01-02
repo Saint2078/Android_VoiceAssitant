@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TenkeApp</string>
+    <string name="title_activity_wechat_login">WechatLoginActivity</string>
+</resources>

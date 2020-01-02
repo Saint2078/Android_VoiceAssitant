@@ -1,0 +1,45 @@
+name = asr.partial
+params = {"results_recognition":["播"],"result_type":"partial_result","best_result":"播","origin_result":{"corpus_no":6765088321807695988,"err_no":0,"result":{"word":["播"]},"sn":"a7a3180c-8a9c-4ac2-bfb2-8347a1f37952_s-114"},"error":0}
+offset = 0
+length = 0
+
+name = asr.partial
+params = {"results_recognition":["播放"],"result_type":"partial_result","best_result":"播放","origin_result":{"corpus_no":6765088321807695988,"err_no":0,"result":{"word":["播放"]},"sn":"a7a3180c-8a9c-4ac2-bfb2-8347a1f37952_s-114"},"error":0}
+offset = 0
+length = 0
+
+name = asr.partial
+params = {"results_recognition":["播放周"],"result_type":"partial_result","best_result":"播放周","origin_result":{"corpus_no":6765088321807695988,"err_no":0,"result":{"word":["播放周"]},"sn":"a7a3180c-8a9c-4ac2-bfb2-8347a1f37952_s-114"},"error":0}
+offset = 0
+length = 0
+
+name = asr.partial
+params = {"results_recognition":["播放周杰伦"],"result_type":"partial_result","best_result":"播放周杰伦","origin_result":{"corpus_no":6765088321807695988,"err_no":0,"result":{"word":["播放周杰伦"]},"sn":"a7a3180c-8a9c-4ac2-bfb2-8347a1f37952_s-114"},"error":0}
+offset = 0
+length = 0
+
+name = asr.partial
+params = {"results_recognition":["播放周杰伦的"],"result_type":"partial_result","best_result":"播放周杰伦的","origin_result":{"corpus_no":6765088321807695988,"err_no":0,"result":{"word":["播放周杰伦的"]},"sn":"a7a3180c-8a9c-4ac2-bfb2-8347a1f37952_s-114"},"error":0}
+offset = 0
+length = 0
+
+name = asr.partial
+params = {"results_recognition":["播放周杰伦的情里"],"result_type":"partial_result","best_result":"播放周杰伦的情里","origin_result":{"corpus_no":6765088321807695988,"err_no":0,"result":{"word":["播放周杰伦的情里"]},"sn":"a7a3180c-8a9c-4ac2-bfb2-8347a1f37952_s-114"},"error":0}
+offset = 0
+length = 0
+
+name = asr.partial
+params = {"results_recognition":["播放周杰伦的七里香。"],"result_type":"final_result","best_result":"播放周杰伦的七里香。","origin_result":{"corpus_no":6765088321807695988,"err_no":0,"result":{"word":["播放周杰伦的七里香。"]},"sn":"a7a3180c-8a9c-4ac2-bfb2-8347a1f37952_s-114","voice_energy":33183.40625},"results_nlu":"{\"raw_text\":\"播放周杰伦的七里香。\",\"results\":[]}","error":0}
+offset = 0
+length = 0
+
+name = asr.finish
+params = {"origin_result":{"sn":"a7a3180c-8a9c-4ac2-bfb2-8347a1f37952_s-114\",\"voice_energy\":33183.40625},\"results_nlu\":\"{\\\"raw_text\\\":\\\"播放周杰伦的七里香。\\\",\\\"results\\\":[]}\",\"error","error":"Speech Recognize success.","err_no":0},"error":0,"desc":"Speech Recognize success."}
+offset = 0
+length = 0
+
+name = asr.partial
+params = {"result_type":"nlu_result","best_result":"","origin_result":""}
+data = {"appid":15363,"encoding":"UTF-8","results":[{"domain":"music","intent":"PLAY_MUSIC","score":100.0,"slots":{"user_singer_name":[{"word":"周杰伦","norm":"周杰伦"}],"user_music_name":[{"word":"七里香","norm":"七里香"}]}}],"err_no":0,"parsed_text":"播放 周杰伦 的 七里香 。","raw_text":"播放周杰伦的七里香。"}
+offset = 0
+length = 338

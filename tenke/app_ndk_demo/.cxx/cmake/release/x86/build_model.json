@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "D:\\code\\DeepLearning\\StartBu\\tenke",
+      "sdkFolder": "C:\\Users\\SU2020\\AppData\\Local\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\build\\intermediates",
+      "gradleModulePathName": ":app_ndk_demo",
+      "moduleRootFolder": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo",
+      "makeFile": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\src\\main\\cpp\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "D:\\code\\DeepLearning\\StartBu\\tenke\\.cxx",
+      "cxxFolder": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx",
+      "ndkFolder": "C:\\Users\\SU2020\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      "-std\u003dc++14"
+    ],
+    "variantName": "release",
+    "soFolder": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\build\\intermediates\\cmake\\release\\lib",
+    "objFolder": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\build\\intermediates\\cmake\\release\\obj",
+    "jsonFolder": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cmake\\release",
+    "gradleBuildOutputFolder": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86",
+  "abiPlatformVersion": 23,
+  "cxxBuildFolder": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cmake\\release\\x86",
+  "jsonFile": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cmake\\release\\x86\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cxx\\release\\x86",
+  "objFolder": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\build\\intermediates\\cmake\\release\\obj\\x86",
+  "buildCommandFile": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cmake\\release\\x86\\build_command.txt",
+  "buildOutputFile": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cmake\\release\\x86\\build_output.txt",
+  "modelOutputFile": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cmake\\release\\x86\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cxx\\release\\x86\\CMakeLists.txt",
+    "toolchainWrapperFile": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cxx\\release\\x86\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cxx\\release\\x86\\build_generation_state.json",
+    "cacheKeyFile": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cxx\\release\\x86\\compiler_cache_key.json",
+    "compilerCacheUseFile": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cxx\\release\\x86\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cxx\\release\\x86\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cxx\\release\\x86\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cmake\\release\\x86\\json_generation_record.json",
+  "compileCommandsJsonFile": "D:\\code\\DeepLearning\\StartBu\\tenke\\app_ndk_demo\\.cxx\\cmake\\release\\x86\\compile_commands.json"
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="android.view.View" />
+        <import type="android.text.TextUtils"/>
+
+        <variable
+            name="viewmodel"
+            type="com.tenke.com.tenke.lib_common.baselibrary.view.recyclerView.DetailedListItemViewModel" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="90dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:onClick="@{()->viewmodel.onItemClicked()}"
+        android:onLongClick="@{viewmodel::onItemLongClick}"
+        android:background="@drawable/detail_list_item_bg">
+
+        <ImageView
+            android:id="@+id/item_img"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            imageUrl="@{viewmodel.imageUrl}"
+            placeholderImage="@{viewmodel.image}"
+            android:visibility="@{viewmodel.image == null &amp;&amp; viewmodel.imageUrl == null  ? View.GONE : View.VISIBLE}" />
+        <TextView
+            android:fontFamily="@font/light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{viewmodel.index.get()}"
+            android:paddingStart="20dp"
+            android:paddingEnd="46dp"
+            android:textSize="@dimen/font_size_normal"
+            android:textColor="@color/white"
+            android:visibility="@{TextUtils.isEmpty(viewmodel.index.get())? View.GONE:View.VISIBLE,default=gone}"
+            android:textStyle="bold" />
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:fontFamily="@font/light"
+                android:id="@+id/item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{viewmodel.name}"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+
+            <TextView
+                android:fontFamily="@font/regular"
+                android:id="@+id/item_detail"
+                android:layout_below="@+id/item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:singleLine="true"
+                android:text="@{viewmodel.detail}"
+                android:textColor="@color/light_gray"
+                android:textSize="18sp"
+                android:visibility="@{TextUtils.isEmpty(viewmodel.detail)?View.GONE:View.VISIBLE}" />
+        </RelativeLayout>
+
+        <TextView
+            android:fontFamily="@font/light"
+            android:id="@+id/item_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:text="@{viewmodel.info}"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/item_indicator"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="16dp"
+            android:onClick="@{()->viewmodel.onItemMoreIconClick()}"
+            android:src="@{viewmodel.indicator}"
+            android:visibility="@{viewmodel.indicator!=null ? View.VISIBLE : View.GONE}" />
+
+    </LinearLayout>
+</layout>

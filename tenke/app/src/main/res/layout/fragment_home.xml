@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.saint.app.ui.home.HomeViewModel" />
+
+        <import type="android.view.View"/>
+
+    </data>
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true">
+
+        <com.tenke.lib_common.view.CustomedWebView
+            android:id="@+id/web_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:loadurl = "@{viewModel.url}" />
+
+        <com.saint.app.WaveView
+            android:id="@+id/waveform"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:visibility="@{viewModel.recording?View.VISIBLE:View.GONE}" />
+
+        <ScrollView
+            android:id="@+id/textScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="15dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="15dp"
+            android:background="@android:color/black"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/voice_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="76dp"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="28sp"
+                    android:text="@{viewModel.voiceText}"/>
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</layout>

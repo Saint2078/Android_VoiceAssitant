@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../TenkeTool.iml" filepath="$PROJECT_DIR$/../TenkeTool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../demo/demo.iml" filepath="$PROJECT_DIR$/../demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library_base.iml" filepath="$PROJECT_DIR$/library_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../project_music/project_music.iml" filepath="$PROJECT_DIR$/../project_music/project_music.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../project_voice/project_voice.iml" filepath="$PROJECT_DIR$/../project_voice/project_voice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../project_wechat/project_wechat.iml" filepath="$PROJECT_DIR$/../project_wechat/project_wechat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sdk_wechat/sdk_wechat.iml" filepath="$PROJECT_DIR$/../sdk_wechat/sdk_wechat.iml" />
+    </modules>
+  </component>
+</project>

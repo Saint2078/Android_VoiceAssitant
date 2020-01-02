@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:waveview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_22"
+    android:visibility="gone">
+
+    <com.tenke.app.WaveView
+        android:id="@+id/waveform"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/voice_recognition_com.telenav.systemui.WaveView_layout_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/voice_recognition_com.telenav.systemui.WaveView_layout_marginBottom"
+        android:layout_marginStart="@dimen/voice_recognition_com.telenav.systemui.WaveView_layout_marginStart" />
+
+    <ScrollView
+        android:id="@+id/textScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/voice_recognition_ScrollView_layout_height"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="@dimen/voice_recognition_ScrollView_paddingBottom"
+        android:paddingEnd="@dimen/voice_recognition_ScrollView_paddingEnd"
+        android:paddingStart="@dimen/voice_recognition_ScrollView_paddingStart"
+        android:paddingTop="@dimen/voice_recognition_ScrollView_paddingTop"
+        android:background="@android:color/black"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/voice_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/voice_recognition_text_min_height"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_size_big" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

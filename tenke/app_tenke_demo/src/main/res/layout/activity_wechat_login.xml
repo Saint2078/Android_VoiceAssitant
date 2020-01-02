@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<TextView-->
+        <!--android:fontFamily="@font/regular"-->
+        <!--android:id="@+id/qr_code_title"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:textSize="@dimen/font_size_semihuge"-->
+        <!--android:layout_gravity="start"-->
+        <!--android:text="@string/wechat_login" />-->
+
+    <!--<TextView-->
+        <!--android:fontFamily="@font/regular"-->
+        <!--android:id="@+id/qr_code_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="@dimen/wechat_login_fragment_TextView_layout_marginTop"-->
+        <!--android:layout_alignStart="@id/qr_code_title"-->
+        <!--android:layout_below="@id/qr_code_title"-->
+        <!--android:textSize="@dimen/font_size_semibig"-->
+        <!--android:layout_gravity="start"-->
+        <!--android:textColor="@color/light_gray"-->
+        <!--android:text="@string/wechat_login_hint"/>-->
+
+    <!--<com.telenav.common.ui.StatusView-->
+        <!--android:id="@+id/status_view"-->
+        <!--android:layout_width="@dimen/wechat_login_fragment_com.telenav.common.ui.StatusView_layout_width"-->
+        <!--android:layout_height="@dimen/wechat_login_fragment_com.telenav.common.ui.StatusView_layout_height"-->
+        <!--android:layout_marginTop="@dimen/wechat_login_fragment_com.telenav.common.ui.StatusView_layout_marginTop"-->
+        <!--android:layout_marginBottom="@dimen/wechat_login_fragment_com.telenav.common.ui.StatusView_layout_marginBottom"-->
+        <!--android:layout_alignStart="@id/qr_code_content"-->
+        <!--android:layout_below="@id/qr_code_content"-->
+        <!--android:visibility="@{viewmodel.statusLoading ? View.VISIBLE : View.GONE}" />-->
+
+    <!--<TextView-->
+        <!--android:fontFamily="@font/regular"-->
+        <!--android:id="@+id/status_text"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="@dimen/wechat_login_fragment_TextView_layout_height"-->
+        <!--android:layout_margin="@dimen/wechat_login_fragment_TextView_layout_margin"-->
+        <!--android:layout_toEndOf="@id/status_view"-->
+        <!--android:layout_below="@id/qr_code_content"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:text="@{viewmodel.statusText}"-->
+        <!--android:textColor="@color/light_gray"-->
+        <!--android:textSize="@dimen/font_size_semibig"-->
+        <!--android:visibility="@{viewmodel.statusLoading ? View.VISIBLE : View.GONE}" />-->
+
+    <!--<android.support.v7.widget.AppCompatCheckedTextView-->
+        <!--android:fontFamily="@font/regular"-->
+        <!--android:id="@+id/auto_message_play_toggle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignStart="@id/qr_code_title"-->
+        <!--android:drawableStart="?android:attr/listChoiceIndicatorMultiple"-->
+        <!--android:checked="@{viewmodel.autoPlayWeChatMessage}"-->
+        <!--android:onClick="@{(view)->viewmodel.onClick(view)}"-->
+        <!--android:backgroundTint="@color/blue"-->
+        <!--android:textSize="@dimen/font_size_semibig"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/wechat_auto_play_message"/>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/send_to_car_wechat_qr_code"-->
+        <!--android:layout_width="@dimen/wechat_login_fragment_com.facebook.drawee.view.SimpleDraweeView_layout_width"-->
+        <!--android:layout_height="@dimen/wechat_login_fragment_com.facebook.drawee.view.SimpleDraweeView_layout_height"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:background="@color/background_color"-->
+        <!--android:src="@{viewmodel.imageDrawable}"-->
+        <!--android:visibility="visible"/>-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="@dimen/wechat_login_fragment_com.facebook.drawee.view.SimpleDraweeView_layout_width"-->
+        <!--android:layout_height="@dimen/wechat_login_fragment_com.facebook.drawee.view.SimpleDraweeView_layout_height"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:background="@color/transparent_gray_77"-->
+        <!--android:visibility="@{viewmodel.isQRCodeLoading ? View.VISIBLE : View.GONE}">-->
+
+        <!--<ProgressBar-->
+            <!--android:id="@+id/wechatQRLoadingBar"-->
+            <!--style="?android:attr/progressBarStyle"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_centerVertical="true" />-->
+    <!--</RelativeLayout>-->
+
+</RelativeLayout>
